@@ -18,4 +18,9 @@ public class ControllerTest {
     public void testHelloWorld() {
         assertEquals("Welcome to Devops Assignment", testController.helloWorld());
     }
+
+    @Test
+    public void testGenerateEvenNumbersScenario() {
+        assertEquals(50, testController.generateEvenNumbers());
+    }
 }
