@@ -21,7 +21,6 @@ public class ControllerTest {
 
     @Test
     public void testGenerateEvenNumbersScenario() {
-
         assertEquals(50, testController.generateEvenNumbers());
     }
 }
